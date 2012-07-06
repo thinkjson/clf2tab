@@ -1,6 +1,6 @@
 # clf2tab
 
-Convert logs in Apache Combined Log Format to tab delimited for use with unix text streaming tools
+Convert logs in Apache Combined Log Format to tab delimited for use with unix text processing tools
 
 ## Usage
 
