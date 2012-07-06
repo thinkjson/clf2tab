@@ -4,5 +4,5 @@ Convert logs in Apache Combined Log Format to tab delimited for use with unix te
 
 ## Usage
 
-clf2tab <log >outfile
-clf2tab <log | cut -f2,6 | sort | uniq
+	clf2tab <log >outfile
+	clf2tab <log | cut -f2,6 | sort | uniq
