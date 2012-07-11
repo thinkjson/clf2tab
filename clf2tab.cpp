@@ -33,7 +33,7 @@ using std::stringstream;
  *
  * e.g. 04/Apr/2012:10:37:29 -0500
  */
-string logtimeToUnix(const string &logtime) {
+string logtimeToUnix(const string& logtime) {
   struct tm tm;
   time_t t;
   if (strptime(logtime.c_str(), "%d/%b/%Y:%H:%M:%S %Z", &tm) == NULL)
@@ -72,7 +72,7 @@ string logtimeToUnix(const string &logtime) {
  * State 8 (optional): Referrer
  * State 9 (optional): User-agent.
  */
-void scanCLF(string line) {
+void scanCLF(const string& line) {
   vector<string> tokens;
   tokens.reserve(16);
   string token("");
