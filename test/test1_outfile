@@ -1,0 +1,2 @@
+128.47.29.30				-	-	1341055502	GET	/some/api/endpoint?parameter=182&safe=true	200	387	http://www.google.com	Apache-HttpClient/UNAVAILABLE (java 1.4)
+				-	-	1341055502	GET	/some/other/api/endpoint	200	376	-	-

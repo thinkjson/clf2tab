@@ -1,0 +1,2 @@
+128.47.29.30 - - [30/Jun/2012:06:25:02 -0500]  "GET /some/api/endpoint?parameter=182&safe=true HTTP/1.1" 200 387 "http://www.google.com" "Apache-HttpClient/UNAVAILABLE (java 1.4)"
+- - [30/Jun/2012:06:25:02 -0500]  "GET /some/other/api/endpoint HTTP/1.1" 200 376 "-" "-"

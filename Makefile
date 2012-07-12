@@ -11,6 +11,8 @@ $(EXE) : $(OBJECTS)
 clf2tab.o : clf2tab.cpp
 	$(CC) -c -o clf2tab.o $(CFLAGS) clf2tab.cpp
 
+.PHONY: test
+
 all : 
 	$(MAKE) $(EXE)
 
@@ -24,3 +26,5 @@ install :
 clean :
 	rm $(EXE) $(OBJECTS)
 
+test : all
+	./test/test.sh
